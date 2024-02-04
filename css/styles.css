@@ -9,7 +9,7 @@
 
 }
 body{
-     background-color: whitesmoke;
+    background-color: whitesmoke;
   
     font-family: body-font;
     max-width: 2000px;
@@ -19,7 +19,7 @@ body{
 
 
 :root{
-    --PrimeryWhite: rgb(255, 255, 255);
+    --PrimeryWhite:  rgb(215, 219, 214);
     --font-family: 'EB Garamond', serif;
     --PrimeryBlack: rgb(0, 0, 0);
     --PrimeryBrown :  rgb(166,91,76);
@@ -35,7 +35,7 @@ body{
     
 }
 .white {
-     color: var(--PrimeryWhite);
+     color:  var(--PrimeryWhite);
      font-size: 66px;
 }
 .brown {
@@ -57,7 +57,7 @@ body{
 }
 .logo_title {
     font-size: 36px;
-    color: rgb(255, 255, 255);
+    color: var(--PrimeryWhite);
     font-family: var(--font-family);
     font-weight: normal;
     
@@ -486,20 +486,201 @@ main{
     font-weight: bolder;
     
 }
-
-
-
-
-
-
-
+ 
 /* || Main */
 /* || Footer */
 .footer {
     width: 1455px;
     height: 728px;
     background-color: var(--sectionDark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.footer_container {
+    width: 1200px;
+    height: 650px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer_title {
+    width: 550px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     margin-bottom: 13%;
+     
+}
+.footer_title  h1{
+    font-size: 50px;
+    width: 400px;
+}
+.footer_title  .logo_title{
+    font-size: 36px;
+    
+}
+
+
+.contact {
+    width: 600px;
+    height: 650px;
+    
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+}
+.contact .form {
+    width: 560px;
+    height: 200px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+}
+.contact .form  .top{
+    width: 560px;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+     
+}
+.contact .form  .top  .left {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    color: var(--PrimeryWhite);
+    
+    
+}
+.form  .top  .left  input {
+    width: 190px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--PrimeryWhite);
+    
+}
+.contact .form  .top  .right {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    color: var(--PrimeryWhite);
+    
+    
+}
+.form  .top  .right  input {
+    width: 190px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--PrimeryWhite);
+    
+}
+ 
+.contact .form  .bottom{
+    width: 560px;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+
+.contact .form  .bottom .left {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   color: var(--PrimeryWhite);
+   
+    
+}
+.contact .form  .bottom .left  input {
+    width: 400px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--PrimeryWhite);
+}
+
+.contact .form  .bottom  .right{
+    width: 112px;
+ 
+    height: 50px;
+    padding-top: 5px;
+}
+.contact .form  .bottom  .right .submit{
+    width: 112px;
+    height: 50px;
+    background: none;
+    border: 1px solid var(--PrimeryWhite);
+    color: var(--PrimeryWhite);
+    cursor: pointer;
+
+}
+
+
+
+ 
+.contact .contact_bar {
+    width: 560px;
+    height: 300px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .contact_bar .address {
+    width: 270px;
+    height: 300px;
+    color: var(--PrimeryWhite);
+   
+   
+ 
+}
+.contact .contact_bar .address  table {
+    
+    width: 270px;
+    height: 250px;
+}
+
+
+.contact .contact_bar .address_menu {
+    width: 270px;
+    height: 300px;
+    
+   
+}
+.address_menu  .lists_items{
+    width: 100%;
+    height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
 /* || Footer */
 
 
