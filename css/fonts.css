@@ -1,0 +1,11 @@
+@font-face {
+    font-family: body-font;
+    src: url(../fonts/WixMadeforTextVF_W_Wght.8022447a.woff2);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+@font-face {
+    font-family: 'EB Garamond', serif;
+    src: url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+}
